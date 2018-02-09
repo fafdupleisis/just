@@ -1,0 +1,372 @@
+* {
+  height: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #FDE5E3;
+  background: #d7cec7;
+  font-family: sans-serif;
+  line-height: 1.5em;
+  text-align: center;
+  height: auto;
+  max-width: 2000px;
+}
+
+.header {
+  color: #FFB1B3;
+  padding: 40px 10px;
+  background-color: #FDE5E3;
+  font-family: relway, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  height: 70px;
+  font-size: 10px;
+}
+
+.sub_header {
+  color: rgb(255, 255, 255);
+  background-color: inherit;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 6px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(to right, #FDE5E3 0%, #d285b8 50%, #8a59a4 100%);
+  box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+  border: 2px solid rgb(28, 110, 164);
+  display: inline-block;
+}
+
+.sub_header:active {
+  background: #144E75;
+}
+
+#nav {
+  display: inline;
+  max-height: 100px;
+  padding-top: 0;
+  text-align: justify;
+  color: #818181;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline;
+  text-align: justify;
+  padding-left: 10px;
+  min-width: 40%;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+nav a:hover {
+  color: #818181;
+  background-color: #C0C0C0;
+}
+
+nav ul li a {
+  background: #fff;
+  text-decoration: none;
+  display: inline;
+}
+
+.homebrown {
+  color: #fff;
+  background-color: #d7cec7;
+  text-decoration: none;
+}
+
+.homeblack {
+  background-color: inherit;
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 1px;
+  overflow-x: visible;
+  padding-top: 1px;
+  text-decoration: none;
+}
+
+.sidenav li {
+  padding: 1px 1px 1px 6px;
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: #818181;
+  display: block;
+  top: 2px;
+  right: 2px;
+  left: 1px;
+  bottom: 3px;
+}
+
+.sidenav ul a {
+  text-decoration: none;
+}
+
+.sidenav a:hover {
+  color: #0a00ff;
+  text-decoration: none;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 40px;
+  right: 5px;
+  left: 2px;
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+.landingpage {
+  color: #818181;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 6px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(to right, rgb(223, 190, 222) 0%, #f4a7da 50%, #d5a6ee 100%);
+  box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+  border: 2px solid #4169E1;
+  display: inline-block;
+}
+
+.kip {
+  border-radius: 50%;
+}
+
+.img {
+  border: 5px;
+  width: 100%;
+  display: block;
+  max-width: 100%;
+  padding-top: 20px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+#video {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  font-family: sans-serif;
+  line-height: 1.6em;
+  font-size: .7rem;
+  width: 75%;
+  color: #11001a;
+  text-align: justify;
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 2px;
+  height: 350px;
+  width: 424px;
+  padding-top: 0;
+  padding-left: 2px;
+  padding-right: 2px;
+  max-width: 95%;
+}
+
+.container {
+  height: auto;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+h1 {
+  text-align: justify;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-top: 5%;
+  padding-left: 5px;
+  max-width: 100%;
+  font-weight: bolder;
+}
+
+h2 {
+  color: rgba(59, 63, 175, 0.9);
+  text-align: justify;
+  text-transform: capitalize;
+  font-size: 1rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 95%;
+}
+
+h4 {
+  color: #818181;
+}
+
+.divider {}
+
+.footer {
+  height: auto;
+  border-radius: 50px;
+  background: #e9e7da;
+  text-decoration: none;
+  text-align: center;
+  color: #8E79AD;
+  text-transform: capitalize;
+  font-family: 'oswald', sans-serif;
+  width: 100%;
+}
+
+.footer-social-icons {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  float: right;
+}
+
+.social-icon {
+  color: #fff;
+}
+
+ul.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons li {
+  vertical-align: top;
+  display: inline;
+  height: 100px;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  padding: 10px 14px;
+  transition: .5s;
+  background-color: #322f30;
+}
+
+.fa-facebook:hover {
+  background-color: blue;
+}
+
+.fa-twitter {
+  padding: 10px 12px;
+  transition: .5s;
+  background-color: #322f30;
+}
+
+.fa-twitter:hover {
+  background-color: #00aced;
+}
+
+#one {
+  float: right;
+}
+
+.circle {
+  max-height: 99%;
+  border-radius: 0.5%;
+  width: auto;
+  opacity: 0.6;
+  z-index: 3000;
+  position: relative;
+  float: none;
+  margin-top: 1px;
+}
+
+.letters {
+  display: inline-block;
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 20px;
+  padding-bottom: 0;
+  height: 350px;
+  width: 424px;
+  padding-left: 2px;
+  padding-right: 1px;
+  max-width: 70%;
+}
+
+.loot {
+  display: inline-block;
+  text-indent: 30%;
+  margin-left: 10px;
+  margin-right: 200px;
+  height: 350px;
+  width: 424px;
+  text-align: left;
+}
+
+.content {
+  display: inline-block;
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 20px;
+  height: 350px;
+  width: 424px;
+  padding-left: 2px;
+  padding-right: 1px;
+  max-width: 70%;
+}
+
+.tooltip {}
+
+.links {
+  display: inline-block;
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 20px;
+  padding-bottom: 0;
+  height: 350px;
+  width: 424px;
+  padding-left: 2px;
+  padding-right: 1px;
+  max-width: 90%;
+}
+
+#tooltip {
+  position: absolute;
+  visibility: hidden;
+  border: 1px solid red;
+  font-size: 14px;
+  background-color: rgb(217, 25, 25);
+  padding: 1px
+}
+
+@media screen and (max-width: 768px) {
+  .sidenav {
+    visibility: visible;
+  }
+  #nav {
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sidenav {
+    visibility: hidden;
+  }
+}
